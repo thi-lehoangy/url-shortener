@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thi-lehoangy/url-shortener.git"
+  },
+  "author": "thi-lehoangy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thi-lehoangy/url-shortener/issues"
+  },
+  "homepage": "https://github.com/thi-lehoangy/url-shortener#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "pg": "^8.13.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7"
+  }
+}
