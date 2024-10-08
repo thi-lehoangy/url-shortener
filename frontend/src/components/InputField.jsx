@@ -1,5 +1,10 @@
-import { Input } from '@mantine/core';
+import { TextInput } from '@mantine/core';
 
-export const InputField = (props) => {
-  return <Input size="xl" radius="md" placeholder={props.placeholder} />;
+import { useState } from 'react';
+
+export function InputField(props) {
+  
+  return <>
+  <TextInput size="xl" placeholder={props.placeholder} onChange={props.onChange} />
+  </>
 }
